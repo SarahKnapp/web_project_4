@@ -1,0 +1,25 @@
+/* designed for max-width: 1280px */
+.popup__container {
+  background-color: white;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: 1px #000;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 430px;
+  max-height: 330px;
+  z-index: 2;
+  opacity: 1;
+
+}
+
+@media screen and (max-width:420px) {
+  .popup__container {
+    max-width: 282px;
+  }
+}

@@ -1,16 +1,9 @@
-# Project 4: Around The U.S.
+Project 4: Around the U.S.A.
 
-### Overview
+This project is a student project by Sarah Knapp. It is part of the Yandex Practicum Web Development Course.
 
-* Figma
-* Images
+This project is just being used for practice and will serve no functional purpose on the internet. Further additions to the project will be made as the course progresses.
 
-**Figma**
+This project was built using CSS, HTML and Javascript and relies on the BEM methodology.
 
-* [Link to the project in Figma](https://www.figma.com/file/mUgu8OSHWE0M6p6vfwmdu9/Sprint-4-Around-The-U.S.-desktop-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Have fun with JavaScript!
+Find the project on [Github Pages](https://sarahknapp.github.io/web_project_4/)

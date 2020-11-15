@@ -1,0 +1,7 @@
+/* designed for max-width: 1280px */
+.card__description {
+  max-width: 87.2%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

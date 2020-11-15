@@ -1,0 +1,13 @@
+/* designed for max-width: 1280px */
+.footer__text {
+  color: #545454;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 420px) {
+  .footer__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

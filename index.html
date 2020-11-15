@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Exploring parks around the U.S.A.">
+  <meta name="keywords" content="travel, USA">
+  <meta name="author" content="Sarah Knapp">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title> Around the U.S. </title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="logo" src="./images/logo.svg" alt="About US logo">
+  </header>
+  <main class="content">
+    <section class="profile">
+      <div class="profile__info">
+        <img class="profile__avatar" src="./images/Avatar.png" alt="Jacques Cousteau Headshot">
+        <div class="profile__description">
+          <div class="profile__container">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <div class="profile__edit">
+              <img class="profile__edit-image" src="./images/edit-icon.svg" alt="edit icon">
+            </div>
+          </div>
+          <p class="profile__job">Explorer</p>
+        </div>
+      </div>
+      <button class="profile__button">
+        <img class="profile__button-sign" src="./images/plus-icon.svg" alt="plus icon">
+      </button>
+    </section>
+    <section class="popup">
+      <div class="popup__container">
+        <div class='popup__close-container'>
+          <img class="popup__close-icon" src="./images/close-icon.svg" alt="close icon">
+        </div>
+        <div class="popup__info">
+          <h2 class="popup__title"> Edit Profile </h2>
+          <input type="text" placeholder="Name" class="popup__text">
+          <input type="text" placeholder="About me" class="popup__text">
+          <button class="popup__button">
+            <p class="popup__button-text">Save</p>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="elements">
+      <div class="card">
+        <img class="card__image" src="./images/yosemite.png" alt="river and trees">
+        <div class="card__description">
+          <h2 class="card__title">Yosemite Valley</h2>
+          <img class="card__icon" src="./images/heart-icon.svg" alt="heart">
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="./images/louise.png" alt="lake and glaciers">
+        <div class="card__description">
+          <h2 class="card__title">Lake Louise</h2>
+          <img class="card__icon" src="./images/heart-icon.svg" alt="heart">
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="./images/bald.png" alt="sunset over mountains">
+        <div class="card__description">
+          <h2 class="card__title">Bald Mountain</h2>
+          <img class="card__icon" src="./images/heart-icon.svg" alt="heart">
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="./images/latemar.png" alt="mountains at night">
+        <div class="card__description">
+          <h2 class="card__title">Latemar</h2>
+          <img class="card__icon" src="./images/heart-icon.svg" alt="heart">
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="./images/vanoise.png" alt="lake with mountain">
+        <div class="card__description">
+          <h2 class="card__title">Vanoise National Park</h2>
+          <img class="card__icon" src="./images/heart-icon.svg" alt="heart">
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="./images/lago.png" alt="boat on a lake">
+        <div class="card__description">
+          <h2 class="card__title">Lago di Braies</h2>
+          <img class="card__icon" src="./images/heart-icon.svg" alt="heart">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+<footer class="footer">
+  <p class="footer__text">
+    &#169; 2020 Around the U.S.
+  </p>
+</footer>
+</html>

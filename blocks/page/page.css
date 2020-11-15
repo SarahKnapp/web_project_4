@@ -1,0 +1,13 @@
+/* designed for max-width: 1280px */
+
+.page {
+  background-color: #000;
+  cursor: url('/images/custom-pointer.svg'), pointer;
+}
+
+@media screen and (max-width: 420px) {
+  .page {
+    max-width: 282px;
+    margin: auto;
+  }
+}

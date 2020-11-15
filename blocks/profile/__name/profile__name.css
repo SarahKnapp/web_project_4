@@ -1,0 +1,23 @@
+/* designed for max-width: 1280px */
+.profile__name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.14;
+
+}
+
+
+@media screen and (max-width:1024px) {
+  .profile__name {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .profile__name {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+  }
+}

@@ -1,0 +1,21 @@
+/* check if BEM requires separate hover file */
+
+
+/* designed for max-width: 1280px */
+.popup__close-container {
+  position: relative;
+  left: 430px;
+  top: -35px;
+}
+
+.popup__close-container:hover {
+  opacity: 0.6;
+  cursor: url('/images/custom-pointer.svg'), pointer;
+}
+
+@media screen and (max-width: 420px) {
+  .popup__close-container {
+    left: 250px;
+    top: -50px;
+  }
+}
