@@ -6,6 +6,9 @@
   position: relative;
   left: 430px;
   top: -35px;
+  transition: opacity .5s linear;
+  background-color: rgba(0,0,0,0);
+  border: 0;
 }
 
 .popup__close-container:hover {
@@ -13,6 +16,9 @@
   cursor: url('/images/custom-pointer.svg'), pointer;
 }
 
+.popup__close-container:focus {
+  display: none;
+}
 @media screen and (max-width: 420px) {
   .popup__close-container {
     left: 250px;
