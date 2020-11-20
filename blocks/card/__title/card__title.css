@@ -7,17 +7,3 @@
   white-space: nowrap;
   overflow: hidden;
 }
-
-
-
-@media screen and (max-width: 1024px) {
-  .card__title {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .card__title {
-    font-size: 14px;
-  }
-}

@@ -6,3 +6,10 @@
 .profile__edit-image:hover {
   opacity: 0.6;
 }
+
+
+@media screen and (max-width: 420px) {
+  .profile__edit-image {
+    max-width: 18px;
+  }
+}
