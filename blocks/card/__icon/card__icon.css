@@ -13,7 +13,6 @@
 
 .card__icon:hover {
   opacity: 0.8;
-  cursor: url('../../../images/custom-pointer.svg'), pointer;
 }
 
 .card__icon:focus {

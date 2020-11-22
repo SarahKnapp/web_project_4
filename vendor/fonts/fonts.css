@@ -9,10 +9,10 @@
 }
 
 @font-face {
-  src: url(../../vendor/fonts/Inter/Inter_Web/Inter-Bold.woff) format('woff'),
-    url(../../vendor/fonts/Inter/Inter_Web/Inter-Bold.woff2) format('woff2');
+  src: url(../../vendor/fonts/Inter/Inter_Web/Inter-Medium.woff) format('woff'),
+    url(../../vendor/fonts/Inter/Inter_Web/Inter-Medium.woff2) format('woff2');
   font-family: 'Inter';
-  font-weight: bold;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;

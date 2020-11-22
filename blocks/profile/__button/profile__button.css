@@ -10,7 +10,6 @@
 
 .profile__button:hover {
   opacity: 0.6;
-  cursor: url('/images/custom-pointer.svg'), pointer;
 }
 
 @media screen and (max-width: 800px) {

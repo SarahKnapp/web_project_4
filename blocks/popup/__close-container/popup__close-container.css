@@ -13,7 +13,6 @@
 
 .popup__close-container:hover {
   opacity: 0.6;
-  cursor: url('/images/custom-pointer.svg'), pointer;
 }
 
 .popup__close-container:focus {

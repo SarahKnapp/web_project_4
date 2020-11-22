@@ -6,5 +6,4 @@
 
 .profile__button-sign:hover {
   opacity: 0.6;
-  cursor: url('/images/custom-pointer.svg'), pointer;
 }
