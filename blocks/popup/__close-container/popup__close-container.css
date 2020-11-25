@@ -1,6 +1,3 @@
-/* check if BEM requires separate hover file */
-
-
 /* designed for max-width: 1280px */
 .popup__close-container {
   position: relative;
@@ -9,6 +6,7 @@
   transition: opacity .5s linear;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
+  cursor: pointer;
 }
 
 .popup__close-container:hover {
@@ -16,7 +14,7 @@
 }
 
 .popup__close-container:focus {
-  display: none;
+  outline: none;
 }
 
 @media screen and (max-width: 420px) {

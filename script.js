@@ -23,7 +23,7 @@ function savePopup(event) {
   event.preventDefault();
   profileName.textContent = popupName.value;
   profileJob.textContent = popupJob.value;
-  popupState.classList.remove("popup_opened");
+  closePopup();
 };
 
 
