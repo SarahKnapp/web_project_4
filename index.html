@@ -34,49 +34,6 @@
       </button>
     </section>
     <section class="elements">
-      <div class="card">
-        <img class="card__image" src="./images/yosemite.png" alt="river and trees">
-        <div class="card__description">
-          <h2 class="card__title">Yosemite Valley</h2>
-          <button class="card__icon" aria-label="Like" type="button">
-          </button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card__image" src="./images/louise.png" alt="lake and glaciers">
-        <div class="card__description">
-          <h2 class="card__title">Lake Louise</h2>
-          <button class="card__icon" aria-label="like" type="button"></button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card__image" src="./images/bald.png" alt="sunset over mountains">
-        <div class="card__description">
-          <h2 class="card__title">Bald Mountain</h2>
-          <button class="card__icon" aria-label="like" type="button"></button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card__image" src="./images/latemar.png" alt="mountains at night">
-        <div class="card__description">
-          <h2 class="card__title">Latemar</h2>
-          <button class="card__icon" aria-label="like" type="button"></button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card__image" src="./images/vanoise.png" alt="lake with mountain">
-        <div class="card__description">
-          <h2 class="card__title">Vanoise National Park</h2>
-          <button class="card__icon" aria-label="like" type="button"></button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card__image" src="./images/lago.png" alt="boat on a lake">
-        <div class="card__description">
-          <h2 class="card__title">Lago di Braies</h2>
-          <button class="card__icon" aria-label="like" type="button"></button>
-        </div>
-      </div>
     </section>
   </main>
   <footer class="footer">
@@ -84,6 +41,7 @@
       &#169; 2020 Around the U.S.
     </p>
   </footer>
+  <!--  old popup
   <div class="popup">
     <div class="popup__container">
       <button class='popup__close-container' type="button" aria-label="Close">
@@ -97,6 +55,31 @@
       </form>
     </div>
   </div>
+
+  NEW PLACE POPUP ! -->
+  <div class="popup">
+    <div class="popup__container">
+      <button class='popup__close-container' type="button" aria-label="Close">
+        <img class="popup__close-icon" src="./images/close-icon.svg" alt="close-icon">
+      </button>
+      <form class="popup__info" name="popup">
+        <h2 class="popup__title"></h2>
+        <input name="name" type="text" placeholder="Name" class="popup__text popup__text_type_primary">
+        <input name="job" type="text" placeholder="About me" class="popup__text popup__text_type_secondary">
+        <button class="popup__button" type="submit" aria-label="save"></button>
+      </form>
+    </div>
+  </div>
+  <template id="#card-template">
+    <div class="card">
+      <img class="card__image">
+      <div class="card__description">
+        <h2 class="card__title"></h2>
+        <button class="card__icon" aria-label="Like" type="button">
+        </button>
+      </div>
+    </div>
+  </template>
   <script src="./script.js"></script>
 </body>
 
