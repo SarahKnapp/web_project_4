@@ -1,6 +1,8 @@
 .profile__edit-image {
   color: white;
   max-width: 24px;
+  transition: opacity .5s linear;
+  cursor: pointer;
 }
 
 .profile__edit-image:hover {

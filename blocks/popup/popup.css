@@ -5,6 +5,8 @@
 @import url(../popup/__info/popup__info.css);
 @import url(../popup/__text/popup__text.css);
 @import url(../popup/__title/popup__title.css);
+@import url(../popup/_type_image/popup_type_image.css);
+@import url(../popup/__image/popup__image.css);
 
 /* designed for max-width: 1280px */
 .popup {
@@ -12,9 +14,16 @@
   position: fixed;
   padding: 0;
   margin: 0;
-  top: 0;
+  top: 100;
   left: 0;
   width: 100%;
   height: 100%;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+
 }

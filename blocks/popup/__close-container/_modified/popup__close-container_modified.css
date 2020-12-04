@@ -1,0 +1,16 @@
+.popup__close-container_modified {
+  position: relative;
+  left: 49.57px;
+  align-self: flex-end;
+  transition: opacity .5s linear;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 420px) {
+  .popup__close-container_modified {
+    left: 36px;
+  }
+}

@@ -2,6 +2,7 @@
 @import url(../card/__icon/card__icon.css);
 @import url(../card/__image/card__image.css);
 @import url(../card/__title/card__title.css);
+@import url(../card/__delete-button/card__delete-button.css);
 
 /* designed for max-width: 1280px */
 
@@ -9,4 +10,6 @@
   background-color: #fff;
   border-radius: 10px;
   max-width: 282px;
+  position: relative;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }

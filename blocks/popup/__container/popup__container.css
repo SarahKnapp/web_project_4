@@ -8,8 +8,8 @@
   margin: auto;
   min-width: 430px;
   z-index: 2;
+  visibility: visible;
   opacity: 1;
-
 }
 
 @media screen and (max-width:420px) {

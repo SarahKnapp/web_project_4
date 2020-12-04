@@ -1,3 +1,5 @@
+@import url(./_modified/popup__close-container_modified.css);
+
 /* designed for max-width: 1280px */
 .popup__close-container {
   position: relative;

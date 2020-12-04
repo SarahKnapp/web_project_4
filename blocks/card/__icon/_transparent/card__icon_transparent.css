@@ -1,0 +1,7 @@
+.card__icon_transparent {
+  background-image: url("../../../../images/heart-icon.svg");
+}
+
+.card__icon_transparent:hover {
+  opacity: 0.5;
+}

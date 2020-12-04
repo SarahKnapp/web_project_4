@@ -1,8 +1,10 @@
+@import url(./_opaque/card__icon_opaque.css);
+@import url(./_transparent/card__icon_transparent.css);
+
 /* designed for max-width: 1280px */
 .card__icon {
   background-color: white;
   transition: opacity .5s linear;
-  background-image: url("../../../images/heart-icon.svg");
   background-repeat: no-repeat;
   border: none;
   padding: 9.5px 10.5px;
@@ -10,10 +12,6 @@
   background-size: 100%;
   align-self: center;
   cursor: pointer;
-}
-
-.card__icon:hover {
-  opacity: 0.8;
 }
 
 .card__icon:focus {

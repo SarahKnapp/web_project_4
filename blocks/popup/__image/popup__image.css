@@ -1,0 +1,10 @@
+@import url(./_caption/popup__image_caption.css);
+@import url(./_container/popup__image_container.css);
+
+@media screen and (max-width: 420px) {
+  .popup__image {
+    max-width: 75vw;
+    max-height: 75vh;
+    object-fit: cover;
+  }
+}
