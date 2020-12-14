@@ -1,5 +1,6 @@
-@import url(./_opaque/card__icon_opaque.css);
 @import url(./_transparent/card__icon_transparent.css);
+
+@import url(./_opaque/card__icon_opaque.css);
 
 /* designed for max-width: 1280px */
 .card__icon {
